@@ -1,0 +1,38 @@
+/* Navbar.css */
+
+.menu-icon {
+    margin-right: 2rem; /* Adjust the margin as needed */
+  }
+  
+  .brand {
+    display: none; /* Hide the brand text */
+  }
+  
+  .search-container {
+    position: relative;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.15);
+    transition: background-color 0.3s ease;
+    margin-right: 2rem; /* Adjust the margin as needed */
+  }
+  
+  .search-icon {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    left: 0.5rem; /* Adjust the position as needed */
+    pointer-events: none;
+  }
+  
+  .search-input {
+    padding-left: 2rem; /* Adjust the padding as needed */
+    width: 100%;
+  }
+
+  @media (max-width: 600px) {
+    .desktop-icons {
+      display: none; 
+    }
+  }
